@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Registration_Form.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <div class="form_container">
+        <form action="">
+            <h2 id="ID_1">USER Registration FORM</h2>
+            <label for="fname">Full Name : </label><br>
+            <input class="input_style" id="fname" name="full_name" type="text" placeholder="Enter your full name"><br><br>
+            
+            <label for="eadd">Email Address : </label><br>
+            <input class="input_style" id="eadd" name="email_address" type="email" placeholder="Enter your email"><br><br>
+            
+            <label for="pwd">Password : </label><br>
+            <input class="input_style" id="pwd" name="pass" type="password" placeholder="Enter your password"><br><br>
+            
+            <label for="cpwd">Confirm Password : </label><br>
+            <input class="input_style" id="cpwd" name="confirm_pass" type="password" placeholder="Re-enter password"><br><br>
+            
+            <label for="dob">Date of Birth : </label><br>
+            <input class="input_style" id="dob" name="birth_date" type="date"><br><br>
+            
+            <label for="ppic">Profile Picture : </label><br>
+            <input class="input_style" id="ppic" name="profile_picture" type="file"><br><br>
+            
+            <label for="feed">Comments/Feedback : </label>
+            <textarea name="feedback" id="feed" rows="4" placeholder="Leave your comments here"></textarea><br><br>
+            
+            <label for="news">Newsletter subscription : </label><br>
+            <select name="Newsletter" id="news" >
+                <option value="select" selected>select</option>
+                <option value="Daily">Daily</option>
+                <option value="Weekly">Weekly</option>
+                <option value="Monthly">Monthly</option>
+                <option value="Quarterly">Quarterly</option>
+                <option value="yearly">yearly</option>
+            </select><br><br>
+            
+            <input class="input_style" id="check" type="checkbox" checked>
+            <label for="tc">I agree to the </label>
+            <a href="">Terms and Condition</a><br><br>
+            <button id="btn1" name="Register" value="rgstr" type="submit">Register</button>
+            <button name="Reset" value="Rst" type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
